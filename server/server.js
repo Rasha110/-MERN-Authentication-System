@@ -7,12 +7,7 @@ import connectDB from "./config/mongodb.js";
 import authRouter from "./routes/authRoutes.js"
 import userRouter from "./routes/userRoutes.js";
 
-import cors from "cors";
 
-app.use(cors({
-  origin: "https://gentle-horse-ad2ff7.netlify.app/",
-  credentials: true,
-}));
 
 
 connectDB()
