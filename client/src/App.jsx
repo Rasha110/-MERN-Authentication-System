@@ -3,8 +3,8 @@ import { Routes } from 'react-router-dom'
 import { Route } from 'react-router-dom'
 import EmailVerify from './pages/EmailVerify'
 import ResetPassword from './pages/ResetPassword'
-import Home from './pages/home'
-import Login from './pages/login'
+import Home from './pages/Home'
+import Login from './pages/Login'
   import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 function App() {
