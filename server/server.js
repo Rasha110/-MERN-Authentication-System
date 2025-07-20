@@ -13,7 +13,7 @@ import userRouter from "./routes/userRoutes.js";
 connectDB()
 const app=express();
 app.use(express.json());
-const port =process.env.port || 4000;
+const port =process.env.PORT || 4000;
 
 const allowedOrigins = [
   'http://localhost:5173',
