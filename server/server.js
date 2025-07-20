@@ -17,7 +17,7 @@ const port =process.env.port || 4000;
 
 const allowedOrigins = [
   'http://localhost:5173',
-'https://mern-authentication-system-gfcy.vercel.app/'
+'https://mern-authentication-system-gfcy-git-main-rasha110s-projects.vercel.app/'
 ];
 
 app.use(cookieParser());
