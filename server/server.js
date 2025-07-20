@@ -15,7 +15,7 @@ const app=express();
 app.use(express.json());
 const port =process.env.port || 4000;
 
-const allowedOrigins=['http://localhost:5173']
+const allowedOrigins=['http://localhost:5173','https://mern-authentication-system-zq53-z7gyv0ozs-rasha110s-projects.vercel.app/']
 
 app.use(cookieParser());
 app.use(cors({origin: allowedOrigins,credentials:true})) //so we can send the cookies in the response from express app
