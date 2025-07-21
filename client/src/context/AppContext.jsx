@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 export const AppContent=createContext();
 export const AppContextProvider=(props)=>{
 
-axios.defaults.baseURL = 'https://mern-authentication-system-two.vercel.app';
+
 
     axios.defaults.withCredentials=true; //it is added so that our page isnt reload agaun ag=nd again and we dont have to login again n again
     const backendUrl=import.meta.env.VITE_BACKEND_URL
